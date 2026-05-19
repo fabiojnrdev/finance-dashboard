@@ -1,0 +1,38 @@
+# Web framework
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+
+# Database
+sqlalchemy==2.0.30
+pymysql==1.1.0
+alembic==1.13.1
+cryptography==42.0.7
+
+# Authentication
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.9
+
+# Validation
+pydantic==2.7.1
+pydantic-settings==2.2.1
+email-validator==2.1.1
+
+# HTTP client (for AI integrations)
+httpx==0.27.0
+
+# Date utilities
+python-dateutil==2.9.0
+
+# CORS
+starlette==0.37.2
+
+# Testing
+pytest==8.2.0
+pytest-asyncio==0.23.6
+pytest-cov==5.0.0
+httpx==0.27.0
+faker==25.0.0
+
+# Dev utilities
+python-dotenv==1.0.1
