@@ -1,2 +1,11 @@
 docker-compose.yml
 docker-compose.prod.yml
+.env
+.env.prod
+node_modules/
+dist/
+build/
+logs/
+*.log
+*.env
+*.yml
